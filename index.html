@@ -1,98 +1,308 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lesson 17-HW</title>
-    <link rel="stylesheet" href="css/homework.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <div class="header__container">
-          <div class="header__header">
-            <div class="header__logo">
-              <img
-                src="img/header/svg/logo-text.svg"
-                alt=""
-                class="header__logo-text"
-              />
-            </div>
-            <div class="header__right">
-              <div class="header__block block-header">
-                <div class="block-header__icon">
-                  <img src="img/header/svg/clock.svg" alt="" />
-                </div>
-                <div class="block-header__body">
-                  <div class="block-header__title">BOARDING HOURS</div>
-                  <div class="block-header__text">
-                    Mon - Sat: 7:00 am - 6:00 pm
-                  </div>
-                </div>
-              </div>
-              <div class="header__block block-header">
-                <div class="block-header__icon">
-                  <img src="img/header/svg/phone.svg" alt="" />
-                </div>
-                <div class="block-header__body">
-                  <div class="block-header__title">CALL US</div>
-                  <div class="block-header__text">(555) Pup-Cares</div>
-                </div>
-              </div>
-              <div class="header__shell"><a href="" class="header__link">Make an Appointment</a></div class="header__shell">
-            </div>
-          </div>
-          <div class="header__footer">
-            <div class="header__items">
-              <div class="header__item item-header item-header_active">
-                Services
-              </div>
-              <div class="header__item item-header">Specials</div>
-              <div class="header__item item-header">Facilities</div>
-              <div class="header__item item-header">Reviews</div>
-              <div class="header__item item-header item-header_active">
-                Shop
-              </div>
-              <div class="header__item item-header">About</div>
-            </div>
-            <div class="header__icons">
-              <div class="header__icon">
-                <img src="img/header/svg/zoom.svg" alt="" />
-              </div>
-              <div class="header__icon header__icon_shop">
-                <img src="img/header/svg/shopping.svg" alt="" /><span
-                  class="header__number"
-                  >2</span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <main class="main">
-        <div class="whoweare">
-          <div class="whoweare__container">
-            <div class="whoweare__body">
-              <div class="whoweare__subtitle">Who we are</div>
-              <div class="whoweare__title">
-                Nemo enim ipsam voluptatem quia voluptas in proident
-              </div>
-              <div class="whoweare__text">
-                Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-                consequatur. Quis autem vel eum iure reprehenderit qui in ea
-                voluptate velit esse quam nihil molestiae consequatur, vel illum
-                qui dolorem eum fugiat quo voluptas nulla pariatur.
-              </div>
-              <div class="whoweare__image">
-                <img src="img/whoare/frondground.png" alt="#" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </main>
-      <footer class="footer"></footer>
-    </div>
-  </body>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 17</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top top-header">
+					<div class="top-header__about about-header">
+						<div class="about-header__logo">
+							<div class="about-header__logo-images">
+								<img class="about-header__logo-img" src="img/header/logo.svg" alt="logo">
+							</div>
+							<div class="about-header__title-logo">
+								logoipsum
+							</div>
+						</div>
+						<div class="about-header__items">
+							<div class="about-header__item">
+								<div class="about-header__images">
+									<img class="about-header__img" src="img/header/time.svg" alt="time">
+								</div>
+								<div class="about-header__info">
+									<div class="about-header__lable">
+										BOARDING HOURS
+									</div>
+									<div class="about-header__value">
+										Mon - Sat: 7:00 am - 6:00 pm
+									</div>
+								</div>
+							</div>
+							<div class="about-header__item">
+								<div class="about-header__images">
+									<img class="about-header__img" src="img/header/phone.svg" alt="time">
+								</div>
+								<div class="about-header__info">
+									<div class="about-header__lable">
+										CALL US
+									</div>
+									<div class="about-header__value">
+										(555) Pup-Cares
+									</div>
+								</div>
+							</div>
+							<div class="about-header__item">
+								<a class="about-header__button _btn" href="">Make an Appointment</a>
+							</div>
+						</div>
+					</div>
+					<nav class="top-header__menu menu">
+						<ul class="menu__items">
+							<li class="menu__item">
+								<a class="menu__link _arrow" href="#">Services</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Specials</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Facilities</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Reviews</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link _arrow" href="#">Shop</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">About</a>
+							</li>
+						</ul>
+						<div class="menu__elements">
+							<div class="menu__search search">
+								<a class="search__link-img" href="#">
+									<img class="search__img" src="img/header/search.svg" alt="search">
+								</a>
+							</div>
+							<div class="menu__basket basket">
+								<a class="basket__link-img" href="#">
+									<img class="basket__img" src="img/header/shopping.svg" alt="shopping">
+								</a>
+								<a class="basket__number" href="#">
+									2
+								</a>
+							</div>
+						</div>
+					</nav>
+				</div>
+				<div class="header__content">
+					<div class="header__title">
+						Premier dog boarding, daycare & day spa
+					</div>
+					<div class="header__buttons">
+						<a class="header__link-btn _btn" href="#">Make an Appointment</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="main__who-we-are who-we-are ">
+				<div class="who-we-are__container">
+					<div class="who-we-are__content">
+						<div class="who-we-are__sub-title">
+							Who we are
+						</div>
+						<div class="who-we-are__title">
+							Nemo enim ipsam voluptatem quia voluptas in proident
+						</div>
+						<div class="who-we-are__text">
+							Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+							aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+							esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+							pariatur.
+						</div>
+						<div class="who-we-are__images">
+							<img class="who-we-are__img" src="img/main/whoweare/dog.jpg" alt="dog">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main__promise promise">
+				<div class="promise__container">
+					<div class="promise__content">
+						<div class="promise__sub-title">
+							OUR PROMISE TO YOU
+						</div>
+						<div class="promise__titile">
+							Sed perspiciatis omnis iste natus
+						</div>
+						<div class="promise__items items-promise">
+							<div class="items-promise__column">
+								<div class="items-promise__images">
+									<img class="items-promise__img" src="img/main/promise/1.svg" alt="">
+								</div>
+								<div class="items-promise__item">
+									<div class="items-promise__title">
+										24/7 Love & Care
+									</div>
+									<div class="items-promise__text">
+										At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+										corrupti quos dolores et quas.
+									</div>
+								</div>
+							</div>
+							<div class="items-promise__column">
+								<div class="items-promise__images">
+									<img class="items-promise__img" src="img/main/promise/2.svg" alt="">
+								</div>
+								<div class="items-promise__item">
+									<div class="items-promise__title">
+										On-site Veterinarian
+									</div>
+									<div class="items-promise__text">
+										Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+										eius
+										modi tempora incidunt.
+									</div>
+								</div>
+							</div>
+							<div class="items-promise__column">
+								<div class="items-promise__images">
+									<img class="items-promise__img" src="img/main/promise/3.svg" alt="">
+								</div>
+								<div class="items-promise__item">
+									<div class="items-promise__title">
+										Live-stream Cameras
+									</div>
+									<div class="items-promise__text">
+										Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+										molestiae
+										consequatur illum.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main__voluptatem voluptatem">
+				<div class="voluptatem__container">
+					<div class="voluptatem_about">
+						<div class="voluptatem__title">
+							Nemo enim ipsam voluptatem quia voluptas in proident
+						</div>
+						<div class="voluptatem__button">
+							<a class="voluptatem__link-btn _btn" href="#">Make an Appointment</a>
+						</div>
+						<span class="voluptatem__line"></span>
+					</div>
+				</div>
+			</div>
+			<div class="main__services services">
+				<div class="services__container">
+					<div class="services__about">
+						<div class="services__sub-title">
+							Our Services
+						</div>
+						<div class="services__title">
+							Sed perspiciatis omnis iste natus
+						</div>
+					</div>
+					<div class="services__content">
+						<div class="services__items">
+							<div class="services__item">
+								<div class="services__column column-services">
+									<div class="column-services__images">
+										<img class="column-services__img" src="img/main/services/1.svg" alt="">
+									</div>
+									<div class="column-services__title">
+										Pet Boarding (No Cages)
+									</div>
+									<div class="column-services__text">
+										At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+										corrupti quos dolores et quas.
+									</div>
+								</div>
+							</div>
+							<div class="services__item">
+								<div class="services__column column-services">
+									<div class="column-services__images">
+										<img class="column-services__img" src="img/main/services/2.svg" alt="">
+									</div>
+									<div class="column-services__title">
+										Pet Daycare
+									</div>
+									<div class="column-services__text">
+										At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+										corrupti quos dolores et quas.
+									</div>
+								</div>
+							</div>
+							<div class="services__item">
+								<div class="services__column column-services">
+									<div class="column-services__images">
+										<img class="column-services__img" src="img/main/services/3.svg" alt="">
+									</div>
+									<div class="column-services__title">
+										Pet Day Spa & Grooming
+									</div>
+									<div class="column-services__text">
+										At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+										corrupti quos dolores et quas.
+									</div>
+								</div>
+							</div>
+							<div class="services__item">
+								<div class="services__column column-services">
+									<div class="column-services__images">
+										<img class="column-services__img" src="img/main/services/4.svg" alt="">
+									</div>
+									<div class="column-services__title">
+										Custom Meal Plans
+									</div>
+									<div class="column-services__text">
+										At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+										corrupti quos dolores et quas.
+									</div>
+								</div>
+							</div>
+							<div class="services__item">
+								<div class="services__column column-services">
+									<div class="column-services__images">
+										<img class="column-services__img" src="img/main/services/5.svg" alt="">
+									</div>
+									<div class="column-services__title">
+										Pet Training
+									</div>
+									<div class="column-services__text">
+										At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+										corrupti quos dolores et quas.
+									</div>
+								</div>
+							</div>
+							<div class="services__item">
+								<div class="services__column column-services">
+									<div class="column-services__images">
+										<img class="column-services__img" src="img/main/services/6.svg" alt="">
+									</div>
+									<div class="column-services__title">
+										Shop Our Store!
+									</div>
+									<div class="column-services__text">
+										At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+										corrupti quos dolores et quas.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="sevices__button">
+						<a class="services__link-btn _btn" href="">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+
+</body>
+
 </html>
